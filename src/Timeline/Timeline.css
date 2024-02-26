@@ -1,0 +1,36 @@
+.timeline-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Optional: Adjust margin as needed */
+    position: relative;
+  }
+
+  .scheduled-event{
+    position: absolute;
+  }
+
+  .time-placeholder {
+    margin-right: 10px; /* Optional: Adjust margin between text and dashed lines */
+    margin-bottom: 40px;
+    padding:5px;
+  }
+
+  .timeline-placeholder {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100px; /* Adjust the height of the parent div as needed */
+  }
+
+  .outer-dashed-line {
+    flex-grow: 1;
+    width: 100%;
+    border-top: 2px dashed #000; /* Adjust the color and style as needed */
+  }
+
+  .inner-dashed-line {
+    flex-grow: 1;
+    width: 100%;
+    border-top: 1px dashed #5d5d5d; /* Adjust the color and style as needed */
+  }
